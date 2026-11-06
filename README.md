@@ -1,43 +1,53 @@
-# Website Pribadi — Tiara Az Zahra
+# ✦ Personal Website — Tiara Az Zahra
 
-Website profil pribadi untuk tugas UTS Web.
+**Personal Profile Website | Ujian Tengah Semester Web Programming**
 
-## Cara menjalankan
-1. Ekstrak folder `UTS_Web_312510070_Tiara`.
-2. Buka folder tersebut di Visual Studio Code.
-3. Pastikan `index.html`, `style.css`, `script.js`, folder `images`, dan folder `media` berada pada susunan yang sama.
-4. Klik kanan `index.html` lalu pilih **Open with Live Server** (jika ekstensi Live Server sudah terpasang), atau buka `index.html` langsung melalui browser.
+Selamat datang di repository website pribadi saya!
 
-## Struktur folder
+Website ini dibuat sebagai bagian dari tugas Ujian Tengah Semester (UTS) mata kuliah Pemrograman Web. Website ini berisi informasi mengenai profil diri, riwayat pendidikan, pengalaman kerja, keterampilan, hobi, dan dokumentasi kegiatan pribadi.
+
+## ✧ About Me
+
+Halo, saya **Tiara Az Zahra**, mahasiswa Teknik Informatika di Universitas Pelita Bangsa.
+
+Saya memiliki ketertarikan pada bidang teknologi informasi, khususnya pemrograman, pengembangan website, dan sistem informasi. Melalui website ini, saya ingin memperkenalkan diri sekaligus menerapkan ilmu yang telah dipelajari.
+
+## ✧ Website Features
+
+- **Home** — Halaman utama dan perkenalan singkat.
+- **About Me** — Informasi dan biodata pribadi.
+- **Education** — Riwayat pendidikan.
+- **Experience** — Pengalaman kerja dan praktik kerja lapangan.
+- **Skills** — Daftar keterampilan.
+- **Multimedia** — Pemutar audio dan video.
+- **Gallery** — Dokumentasi foto kegiatan.
+- **Contact** — Formulir kontak dengan validasi JavaScript.
+
+## ✧ Technologies Used
+
+| Technology | Description |
+|---|---|
+| HTML5 | Struktur halaman website |
+| CSS3 | Tampilan dan desain website |
+| JavaScript | Interaksi dan validasi form |
+| GitHub | Penyimpanan kode program |
+| GitHub Pages | Publikasi website |
+
+## ✧ Project Structure
+
 ```text
-UTS_Web_312510070_Tiara/
+UTS_Web_312510070_Tiara-Az-Zahra/
+│
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
+│
 ├── images/
 │   ├── profil.jpg
 │   ├── about.jpg
 │   └── foto-foto galeri
+│
 └── media/
     ├── audio.mp3
     └── video.mp4
-```
-
-## Bagian website
-- Header dan navigasi
-- Hero / perkenalan
-- Biografi dan data diri
-- Tabel riwayat pendidikan
-- Pengalaman kerja
-- Daftar keterampilan dan minat
-- Multimedia (audio dan video)
-- Galeri foto
-- Form kontak dengan validasi JavaScript
-
-## Catatan
-- Form kontak memvalidasi isian lalu membuka aplikasi email menggunakan `mailto:`. Form ini belum mengirim data ke server.
-- Audio akan diputar setelah pengunjung menekan tombol Play.
-- Persentase keterampilan adalah perkiraan tampilan dan dapat diubah sesuai kemampuan sebenarnya.
-- Periksa kembali semua data pribadi dan foto sebelum website dipublikasikan.
-- Penggunaan musik pada website publik perlu memperhatikan hak cipta dan izin penggunaan.
